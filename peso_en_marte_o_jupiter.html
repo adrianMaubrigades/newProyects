@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tu peso en otro lugar</title>
+  </head>
+  <body>
+    <h1>Calcula tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en o Marte o Jupiter</p>
+  <script type="text/javascript">
+  var usuario = parseFloat(prompt("Cual es tu peso? (entre cero y trecientos)"));
+  var planeta = parseInt(prompt("Elige un planeta.\n 1 es marte, 2 es jupiter. "));
+  var peso = parseInt(usuario);
+  var nombredelplaneta;
+  var mgt = 9.8;
+  var mgm = 3.7;
+  var mgj = 24.8;
+  var peso_resultado;
+  if (usuario > 0 & usuario < 300)
+  {
+  if (planeta == 1)
+  {
+    peso_resultado = peso * mgm / mgt;
+    nombredelplaneta = "Marte";
+  }
+  else if (planeta == 2)
+  {
+    peso_resultado = peso * mgj / mgt;
+    nombredelplaneta = "jupiter";
+  }
+  else
+  {
+    peso_resultado = 0
+    nombredelplaneta = "ningún lado porque pusiste un planeta que no corresponde";
+  }
+  peso_resultado = parseInt(peso_resultado);
+  document.write("pesas " + peso_resultado + "<strong> kg en " + nombredelplaneta + " .</strong>")
+  }
+  else
+  {
+    document.write(usuario = "pusiste un peso que no corresponde, entonces no se puede calcular nada")
+  }
+  </script>
+  </body>
+</html>
