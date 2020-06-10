@@ -1,0 +1,9 @@
+en esta parte practique programacion utilizando atom, practicando
+con javaScript, desde cosas muy basicas como los condicionales if, for, while
+practicando dibujar en canvas, crear objetos y hasta un simulador de
+cajero automatico.
+
+los proyectos mas complejos fueron el cajero automatico
+el banco, los canvas estan muy divertidos, el dibujar con el mouse
+y desme mi opinion personal JS es mucho mas sencillo que otros
+lenguajes que eh visto y para ser mi primera vez me gusto.
